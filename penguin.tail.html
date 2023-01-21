@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/b926dd3a23.js" crossorigin="anonymous"></script>
+
+    <!-- if i want to add custom color  -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        price: '#FABE4C',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header class="container mx-auto bg-amber-50">
+        <div class=" md:flex justify-center items-center py-32">
+            <div class="space-y-5 px-12 pb-8 md:px-32">
+                <h3 class="text-7xl font-bold uppercase"><span class="text-orange-500"> Be the Penguins</span> <br>
+                    <span class="text-slate-900">of Winter</span>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eaque at eos, cupiditate quas dolores.</p>
+                <button
+                    class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+            </div>
+
+            <div class="">
+                <img class="px-10" src="images/my photo.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-12">
+        <section class="mt-12">
+            <h3 class="text-4xl p-10 font-bold uppercase">Mens Jacket</h3>
+
+            <!-- Mens Jacket Section  -->
+
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10  gap-10">
+
+                <!-- jacket-1 -->
+
+                <div class=" bg-white p-4 rounded-2xl drop-shadow-lg">
+                    <div class="bg-slate-200 p-8 rounded-2xl">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold">Yellow Coat Jacket </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia esse, magni blanditiis
+                            quidemtemporibus aspernatur.</p>
+                        <div class="flex justify-between">
+                            <p class="text-3xl font-bold text-price">$234</p>
+                            <button class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- jacket-2 -->
+
+                <div class="bg-white p-4 rounded-2xl drop-shadow-lg">
+                    <div class="bg-slate-200 p-8 rounded-2xl">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold">Yellow Coat Jacket </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia esse, magni blanditiis
+                            quidemtemporibus aspernatur.</p>
+                        <div class="flex justify-between">
+                            <p class="text-3xl font-bold text-price">$234</p>
+                            <button class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- jacket-3 -->
+
+                <div class="bg-white p-4 rounded-2xl drop-shadow-lg">
+                    <div class="bg-slate-200 p-8 rounded-2xl">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold">Yellow Coat Jacket </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia esse, magni blanditiis
+                            quidemtemporibus aspernatur.</p>
+                        <div class="flex justify-between">
+                            <p class="text-3xl font-bold text-price">$234</p>
+                            <button class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-12">
+            <h3 class="text-4xl p-10 font-bold uppercase">Women Jacket</h3>
+
+            <!-- Womens Jacket Section  -->
+
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10  gap-10">
+
+                <!-- jacket-4 -->
+
+                <div class=" bg-white p-4 rounded-2xl drop-shadow-lg">
+                    <div class="bg-slate-200 p-8 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold">Yellow Coat Jacket </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia esse, magni blanditiis quidemtemporibus aspernatur.</p>
+                        <div class="flex justify-between">
+                            <p class="text-3xl font-bold text-price">$234</p>
+                            <button class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- jacket-5 -->
+
+                <div class="bg-white p-4 rounded-2xl drop-shadow-lg">
+                    <div class="bg-slate-200 p-8 rounded-2xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold">Yellow Coat Jacket </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia esse, magni blanditiis
+                            quidemtemporibus aspernatur.</p>
+                        <div class="flex justify-between">
+                            <p class="text-3xl font-bold text-price">$234</p>
+                            <button class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- jacket-6 -->
+
+                <div class="bg-white p-4 rounded-2xl drop-shadow-lg">
+                    <div class="bg-slate-200 p-8 rounded-2xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold">Yellow Coat Jacket </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia esse, magni blanditiis
+                            quidemtemporibus aspernatur.</p>
+                        <div class="flex justify-between">
+                            <p class="text-3xl font-bold text-price">$234</p>
+                            <button class="uppercase py-4 px-8 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white"><i class="fa-solid fa-cart-shopping mr-2"></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section  -->
+
+        <section>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
